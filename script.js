@@ -5,7 +5,7 @@ function generateRandomNumber() {
     
     // Add loading state to button
     button.disabled = true;
-    button.textContent = 'Generating...';
+    button.textContent = 'Randoming...';
     
     // Add animation class
     numberDisplay.classList.add('number-change');
